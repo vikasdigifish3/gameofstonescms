@@ -119,7 +119,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Portals</h2>
+               
+                 <div class="col-md-12 d-flex justify-content-between align-items-center">
+            <h2>Portals</h2>
+            <button class="btn btn-primary">Add Portals</button>
+        </div>
                 <a href="{{ route('portals.create') }}" class="btn btn-primary">Add Portal</a>
                 <table class="table">
                     <thead>
